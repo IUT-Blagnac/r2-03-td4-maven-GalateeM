@@ -1,1 +1,14 @@
-Test
+Programme permettant d'inverser un tableau avec l'utilisation d'une pile
+
+-> Instructions pour compiler :
+mvn clean
+mvn compiler
+mvn package
+
+-> Instruction pour lancer le .jar
+java -jar target/tp_qualite-1.0.jar
+
+-> Instructions pour créer la javadoc
+mvn javadoc:javadoc
+Attention le fichier pom.xml doit contenir ISO-8859-1 au lieu de UTF8
+et préciser  où est le main : main.InverserTableau
